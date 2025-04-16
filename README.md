@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# AnuraFacts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This website is to showcase organisms within the order of Anura, better known as frogs. 
 
-## Available Scripts
+## Planned Features
 
-In the project directory, you can run:
+The site has several planned features shown below.
 
-### `npm start`
+### `Anura of the Day`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The home page will feature one species of anura which will be determined by the day. It will show a the species name, photo, characteristics, and geographical location where the species is usually found. The species name will be clickable to lead to the species page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Another option would be a randomly selected species each time the page is refreshed.
 
-### `npm test`
+### `Species Page`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The species page will contain more details of the species and more photos. More detais such as family and genus, estimated population, fun facts, and origin of the name will most likely be included. Will include their sound if available.
 
-### `npm run build`
+### `Anura Species Tree (Phylogeny)`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+An overall species tree will be available with selectable links that lead to the species page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Geographical Map`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Intergrate Map of Life for the order of Anura if possible.
 
-### `npm run eject`
+### `Nav Bar`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The navigation bar is to include the **Home Page, Species Tree, Geographical Map, About Page** 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `About Page`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Simple about page with sources of data. Include any contributer information including [AmphibiaWeb](amphibiaweb.org)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Contribution Page`
 
-## Learn More
+Depending on the legality of accepting donations, a contribution page will be available for donations and have a record of what the donations has been used for for transparency. Also have a section that lists all contributors of data and donor's with their consent.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Back-End
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The back-end of the site will need to be created containing all information for the **Species Page**. 
 
-### Code Splitting
+If contributions can be legally accpeted, back-end will be required for storing of donor information for records.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Special Thanks
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[AmphibiaWeb](http://amphibiaweb.org) and other sources which will be updated here and cited on the website.
