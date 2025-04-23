@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './frog_1663170.png';
 import './App.css';
 
 function App() {
@@ -9,14 +9,17 @@ function App() {
         <p>
           Welcome to AnuraFacts, your favotrite fact website for the order of Anura!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>This is currently a work-in-progress site</p>
+        <p>{'Visit the '}
+          <a
+            className="App-link"
+            href="https://github.com/hoyoungsin/AnuraFacts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
+        </p>
       </header>
     </div>
   );
