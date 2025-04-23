@@ -1,5 +1,6 @@
 import logo from './frog_1663170.png';
 import './App.css';
+import { useState, useEffect } from 'react';
 
 function App() {
   return (
