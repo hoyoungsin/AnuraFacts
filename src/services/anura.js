@@ -11,3 +11,4 @@ export const getFOD = async (fodid) => {
 }
 
 //export species info
+//frog of the day id "fodid"
